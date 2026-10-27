@@ -31,9 +31,19 @@ tanktroublelite/
 
 ## Design Patterns Used
 
-- **Builder** (`MazeBuilder`): constructs mazes by adding walls step by step
-- **Factory** (`MazeFactory`): provides ready-made maze layouts
-- **Strategy** (`MovementStrategy`): lets tanks use different movement behaviors
+- **Builder** (`MazeBuilder`): Constructs mazes by adding walls step by step. Since we are familiar with a maze builder  
+                               we thought incorporating a maze builder for our game would suit it perfectly since
+                               we learned the pattern in class and throughout our polymorphia homeworks. And this
+                               pattern makes it easier to create different maze layouts as we continue working on 
+                               the project.
+- **Factory** (`MazeFactory`): Provides ready-made maze layouts. As we continue working on it, we will add 
+                               more maze layouts for players to choose from when playing the game. This separates
+                               the creation of specific maze layouts from the rest of the game.
+- **Strategy** (`MovementStrategy`): Lets tanks use different movement behaviors. As we continue working on 
+                                     it, we will implement the strategy for the player who uses WASD keys and
+                                     the strategy for the player using the arrow keys. With the common interface
+                                     for the tanks movement behavior, it keeps the tanks movement logic separate
+                                     from specific behaviors used.
 
 ## Getting Started
 
@@ -53,5 +63,5 @@ java -cp out tanktroublelite.[MainClassName]
 
 ## Authors
 
-- [Your name]
-- [Partner's name]
+- Amir Mhamdi
+- Alan Ayala
