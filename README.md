@@ -31,11 +31,11 @@ tanktroublelite/
 
 ## Design Patterns Used
 
-- **Builder** (`MazeBuilder`): Constructs mazes by adding walls step by step. Since we are familiar with a maze builder  
-                               we thought incorporating a maze builder for our game would suit it perfectly since
-                               we learned the pattern in class and throughout our polymorphia homeworks. And this
-                               pattern makes it easier to create different maze layouts as we continue working on 
-                               the project.
+- **Builder** (`MazeBuilder`): Constructs mazes by adding walls step by step. Since we are familiar with a maze  
+                               builder, we thought incorporating a maze builder for our game would suit it perfectly
+                               since we learned the pattern in class and throughout our polymorphia homeworks. And 
+                               this pattern makes it easier to create different maze layouts as we continue working  
+                               on the project.
 - **Factory** (`MazeFactory`): Provides ready-made maze layouts. As we continue working on it, we will add 
                                more maze layouts for players to choose from when playing the game. This separates
                                the creation of specific maze layouts from the rest of the game.
