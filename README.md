@@ -47,15 +47,7 @@ tanktroublelite/
 
 ## Getting Started
 
-**Requirements:** Java [version, e.g. 17+]
-
-```bash
-# Compile
-javac -d out $(find . -name "*.java")
-
-# Run
-java -cp out tanktroublelite.[MainClassName]
-```
+The project is not runnable yet. Setup and run instructions will be added once the game has a main entry point.
 
 ## Controls
 
